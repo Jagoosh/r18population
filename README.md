@@ -1,22 +1,25 @@
+r18population
+================
+Олег Шмелев
+18 января 2017 г
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-r18population
-=============
+Сбор и подготовка данных
+------------------------
 
-data/population.csv
--------------------
+### Файл data/population.csv
 
 Численность постоянного населения Удмуртской Республики на 1 января текущего года:
 
 -   год измерения (year);
 -   административно-территориальная единица (area);
--   возраст, полных лет (age);
+-   возраст<sup>1</sup>, полных лет (age);
 -   пол (gender);
 -   численность возрастно-половой группы (value).
 
-Значение `age == 100` в таблице соответствует «100 полных лет и старше».
+<sup>1</sup> — значение `age == 100` в таблице соответствует «100 полных лет и старше».
 
-Источник данных — [Удмуртстат, официальная статистика, население — основные показатели](http://udmstat.gks.ru/wps/wcm/connect/rosstat_ts/udmstat/ru/statistics/population/), подготовлено к анализу автором.
+Источник данных: [Удмуртстат, официальная статистика, население — основные показатели](http://udmstat.gks.ru/wps/wcm/connect/rosstat_ts/udmstat/ru/statistics/population/), подготовлено к анализу автором.
 
 -   [Возрастно-половой состав населения МО УР на 1 января 2016](http://udmstat.gks.ru/wps/wcm/connect/rosstat_ts/udmstat/resources/19c45b804f7e1ac09445d68250d62a05/%D0%92%D0%BE%D0%B7%D1%80_%D0%9C%D0%9E_2016.pdf);
 -   [Возрастно-половой состав населения МО УР на 1 января 2015](http://udmstat.gks.ru/wps/wcm/connect/rosstat_ts/udmstat/resources/ee05e1004b5aa20db9cdb94e4d05559c/%D0%92%D0%BE%D0%B7%D1%80_%D0%9C%D0%9E_2015.pdf);
